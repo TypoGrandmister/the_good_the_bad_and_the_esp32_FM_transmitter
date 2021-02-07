@@ -12,6 +12,6 @@ ledcAttachPin(outputPin, PWMchannel);
 
 void loop() {
   ledcSetup(PWMchannel,(carrier+(samples[i]*sen)),2);
-  ledcWrite(PWMchannel,outputPin);
+  ledcWrite(PWMchannel,2);
   delayMicroseconds(1000000/sampleRate);
 }

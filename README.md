@@ -5,3 +5,6 @@ this project was inspered by bitluni's AM transmittor video on youtube: https://
 if you want a custom audio header here is web based audio to header convevetor :https://bitluni.net/am-radio-transmitter that bitluni made
 
 from personal exprince i get the harmonics up to 130Mhz when "7Mhz" PWM signal was used at 50% duty cycle and i tone to frequncy 101MHz to listion to it on the FM radio but using an SDR would make it allot easier to find the harmonics 
+
+
+one version uses a pre made audio header while ESP32 FM ADC uses an ADC so you can connect your phone to it to play music(a pre amp is needed as the build in ADC is not sensitive enough)
